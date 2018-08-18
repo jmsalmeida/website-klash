@@ -22,5 +22,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster', cursive;
+  text-transform: none;
 }

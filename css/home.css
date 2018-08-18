@@ -4,6 +4,7 @@
   height: 500px;
 }
 
+/* MENU */
 .menu {
   display: flex;
   justify-content: space-between;
@@ -19,4 +20,24 @@
   text-decoration: none;
   margin: 0 5px;
   font-size: 12pt;
+}
+
+/* HEADER */
+.klash-tattoo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.header-social-icons a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 20pt;
+}
+
+.header-social-icons a span {
+  font-family: 'Lobster', cursive;
+  text-transform: none;
 }
