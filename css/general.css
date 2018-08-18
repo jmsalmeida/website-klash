@@ -8,6 +8,10 @@ body {
   color: white;
 }
 
+header {
+  padding: 30px 0;
+}
+
 section {
   padding: 50px 0;
 }
