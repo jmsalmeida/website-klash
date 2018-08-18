@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(../images/background.jpg);
+  text-transform: uppercase;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-family: 'Rye', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+}
