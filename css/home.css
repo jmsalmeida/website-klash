@@ -193,3 +193,26 @@
   width: 400px;
   height: 300px;
 }
+
+/* WHERE */
+
+.where {
+  background-color: #5e528e;
+  padding: 50px 0
+}
+
+.where .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.where .container > div > a {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Rye', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
