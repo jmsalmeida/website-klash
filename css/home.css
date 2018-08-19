@@ -63,3 +63,30 @@
   margin: 0 50px;
   text-align: center;
 }
+
+/* ABOUT */
+.about-title {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.about-title h3 {
+  margin: 0 20px;
+  font-size: 24pt;
+  cursor: pointer;
+}
+
+.about-title h3:hover {
+  text-decoration-line: underline;
+}
+
+.about-frames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-frames video {
+  width: 1024px;
+}

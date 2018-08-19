@@ -23,7 +23,7 @@ h2 {
 
 h3 {
   font-family: 'Lobster', cursive;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 .container {
