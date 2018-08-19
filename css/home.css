@@ -133,3 +133,23 @@
   align-items: center;
   margin: 50px 0;
 }
+
+/* COMMENTS */
+.comments-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.comments-arrow {
+  font-size: 30px;
+  margin: 0 100px;
+}
+
+.comment {
+  margin: 0 100px;
+  text-align: center;
+}
+
+.comment span {
+  font-size: 10pt;
+}
