@@ -5,11 +5,25 @@
 }
 
 /* MENU */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.hamburguer {
+  display: none;
+  width: 25px;
+  margin-left: 40px;
+}
 
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: 0 50px;
+}
+
+.menu-nav ul {
+  display: flex;
 }
 
 .menu-nav ul li{
@@ -21,6 +35,10 @@
   text-decoration: none;
   margin: 0 5px;
   font-size: 12pt;
+}
+
+.hide-menu {
+  transform: translateY(-150%);
 }
 
 /* HEADER */
@@ -250,7 +268,7 @@
 }
 
 .contact-form input, textarea {
-  width: 60%;
+  width: 90%;
   border-radius: 3px;
   border: 1px solid #ccc;
   margin: 5px 0;
@@ -268,13 +286,10 @@
   resize: none;
 }
 
-.contact-left-btn {
-  position: absolute;
-  top: 510px; right: 250px;
-}
-
 .contact-btn {
   background-color: #5e528e;
+  width: 240px;
+  height: 60px;
 }
 
 /* Information */
@@ -341,9 +356,111 @@
 }
 
 .footer3 {
-  display: flex;
-  justify-content: center;
   padding: 20px 0;
   font-size: 10pt;
   background-color: #5e528e;
+  text-align: center;
+}
+
+.footer3 p {
+  margin: 0 30px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:1024px) {
+  .comment {
+    margin: 0;
+  }
+
+  .comments-arrow {
+    margin: 0 10px;
+  }
+  
+  .information > div {
+    flex-direction: column-reverse;
+  }
+
+  .information > div div {
+    margin: 50px 0;
+  }
+
+  .info-klash {
+    flex-direction: column;
+  }
+
+  .info-klash img {
+    margin-right: 0;
+  }
+
+  .info-contato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer1 {
+    flex-direction: column;
+  }
+
+  .footer1 div {
+    margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-items div {
+    margin: 50px 0;
+  }
+
+  .gallery .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .hamburguer {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .menu img:nth-child(1) {
+    display: none;
+  }
+
+  .menu-nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #5e528e;
+    transition: 0.5s;
+  }
+
+  .menu-nav ul {
+    flex-direction: column;
+  }
+
+  .service-items {
+    flex-direction: column;
+  }
+
+  .service-items div {
+    margin: 50px 100px;
+  }
+
+  .where .container {
+    flex-direction: column;
+  }
+
+  .where .container div {
+    margin: 50px 0;
+  }
 }
