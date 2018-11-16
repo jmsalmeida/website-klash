@@ -276,3 +276,41 @@
 .contact-btn {
   background-color: #5e528e;
 }
+
+/* Information */
+.information {
+  font-size: 10pt;
+}
+
+.information h3 {
+  font-size: 14pt;
+}
+
+.information > div {
+  display: flex;
+  align-items: initial;
+}
+
+.information > div div {
+  padding: 0 100px;
+}
+
+.info-klash {
+  display: flex;
+  align-items: center;
+}
+
+.info-klash > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-klash img {
+  width: 100px;
+  margin-right: 30px;
+}
+
+.info-contato {
+  /* width: 30%; */
+}
