@@ -4,7 +4,8 @@ body {
   background-image: url(../images/background.jpg);
   text-transform: uppercase;
   font-family: 'Pontano Sans', sans-serif;
-  font-size: 18px;
+  font-size: 10pt;
+  line-height: 25px;
   color: white;
 }
 
